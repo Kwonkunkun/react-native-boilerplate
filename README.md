@@ -7,6 +7,35 @@
 
 ---
 
+### intall
+
+#### 1. rename used [react-native-rename ](https://github.com/junedomingo/react-native-rename)
+
+```
+//download
+npm install react-native-rename -g
+
+//usage 1
+npx react-native-rename <newName>
+
+//usage 2: With custom Bundle Identifier (Android only. For iOS, please use Xcode)
+npx react-native-rename <newName> -b <bundleIdentifier>
+```
+
+#### 2. installation
+
+```
+npm install
+npm pod-install
+npm run start
+
+// you want run ios
+npm run ios
+
+// you want run android
+npm run android
+```
+
 ### edit
 
 #### 1. commit message convention (add gitmoji)
