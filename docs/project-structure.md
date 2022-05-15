@@ -1,5 +1,3 @@
-<img alt="React Native Typescript Boilerplate" src="../assets/logo.png" width="1050"/>
-
 # 🍺 Project Structure
 
 ## File structure
@@ -12,6 +10,8 @@
 - `/docs` - as the name suggests - any docs
 - `/src` - contains our JS and style code.
   - `/screens` - contains all screens/pages
+  - `/hooks` - shared hooks
+  - `/types` - shared types
   - `/services` - app-wide services
     - `/api` - generic network handling with API constants
     - `/event-emitter` - singleton event bus to use it everywhere in the project
@@ -29,65 +29,61 @@
 ## Project Structure on Flat Design
 
 ```
-├───android
-├───ios
-├───src
-│   ├───screens
-│   │   ├───detail
-│   │   │   ├───DetailScreen.style.ts
-│   │   │   └───DetailScreen.tsx
-│   │   ├───home
-│   │   │   ├───HomeScreen.style.ts
-│   │   │   └───HomeScreen.tsx
-│   │   ├───notification
-│   │   │   ├───NotificationScreen.style.ts
-│   │   │   └───NotificationScreen.tsx
-│   │   ├───profile
-│   │   │   ├───ProfileScreen.style.ts
-│   │   │   └───ProfileScreen.tsx
-│   │   └───search
-│   │       ├───SearchScreen.style.ts
-│   │       └───SearchScreen.tsx
-│   ├───services
-│   │   ├───api
-│   │   │   ├───api.constant.ts
-│   │   │   └───index.ts
-│   │   ├───event-emitter
-│   │   │   └───index.ts
-│   │   ├───models
-│   │   │   └───index.ts
-│   │   └───navigation
-│   │       └───index.tsx
-│   ├───shared
-│   │   ├───components
-│   │   │   └───text-wrapper
-│   │   ├───constants
-│   │   │   └───index.ts
-│   │   ├───localization
-│   │   │   └───index.ts
-│   │   └───theme
-│   │       ├───fonts.ts
-│   │       └───themes.ts
-│   └───utils
-│       └───index.ts
-├───.babelrc
-├───.commitlintrc.json
-├───.eslintignore
-├───.eslintrc.js
-├───.gitattributes
-├───.gitignore
-├───.npmignore
-├───.prettierignore
-├───.prettierrc
-├───.watchmanconfig
-├───app.json
-├───App.tsx
-├───global.d.ts
-├───index.js
-├───metro.config.js
-├───package-lock.json
-├───package.json
-├───react-native.config.js
-├───README.md
-├───tsconfig.json
+...
+├─ android
+├─ ios
+├─ src
+│  ├─ assets
+│  │  ├─ fonts
+│  │  └─ splash
+│  ├─ hooks
+│  │  ├─ index.ts
+│  │  ├─ useCustomNavigation.ts
+│  │  └─ useStatusBar.ts
+│  ├─ navigation
+│  │  └─ index.tsx
+│  ├─ screens
+│  │  ├─ Detail
+│  │  │  └─ index.tsx
+│  │  ├─ Home
+│  │  │  ├─ index.tsx
+│  │  │  └─ mock
+│  │  │     └─ MockData.ts
+│  │  ├─ Notification
+│  │  │  └─ index.tsx
+│  │  ├─ Profile
+│  │  │  └─ index.tsx
+│  │  └─ Search
+│  │     └─ index.tsx
+│  ├─ services
+│  │  ├─ api
+│  │  │  ├─ api.constant.ts
+│  │  │  └─ index.ts
+│  │  ├─ event-emitter
+│  │  │  └─ index.ts
+│  │  └─ models
+│  │     └─ index.ts
+│  ├─ shared
+│  │  ├─ components
+│  │  │  ├─ HeaderBlock
+│  │  │  │  └─ index.tsx
+│  │  │  ├─ Margin
+│  │  │  │  └─ index.tsx
+│  │  │  └─ StyledText
+│  │  │     └─ index.tsx
+│  │  ├─ constants
+│  │  │  └─ index.ts
+│  │  ├─ localization
+│  │  │  └─ index.ts
+│  │  └─ theme
+│  │     ├─ colors.ts
+│  │     ├─ font-size.ts
+│  │     ├─ fonts.ts
+│  │     └─ themes.ts
+│  ├─ types
+│  │  └─ navigation.d.ts
+│  └─ utils
+│     └─ index.ts
+└─ tsconfig.json
+
 ```

@@ -1,10 +1,8 @@
-<img alt="React Native Typescript Boilerplate" src="../assets/logo.png" width="1050"/>
-
 # 🍾 Components
 
 ## Styles
 
-- **TextWrapper** over default Text component
+- ~~**TextWrapper** over default Text component~~
 - Colors
 - Fonts
 - Theme
