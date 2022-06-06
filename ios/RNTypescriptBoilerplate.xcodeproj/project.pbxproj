@@ -12,6 +12,7 @@
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
 		259681DB040B45F88DDA08D5 /* Montserrat-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8DF6F5C3EDBC411AB2725D54 /* Montserrat-BoldItalic.ttf */; };
+		2B090036F9AE9242D258FC63 /* libPods-RNTypescriptBoilerplate-RNTypescriptBoilerplateTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 34EDE5E0E50CAC6B2F68D94E /* libPods-RNTypescriptBoilerplate-RNTypescriptBoilerplateTests.a */; };
 		2D02E4BC1E0B4A80006451C7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
 		2D02E4BD1E0B4A84006451C7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		2D02E4BF1E0B4AB3006451C7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
@@ -29,11 +30,10 @@
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
 		83B5307E59C04595886F461B /* Montserrat-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3D32DD8CC06C45D6B219BEDC /* Montserrat-ExtraBold.ttf */; };
 		9A596D9A1698437B84C3C4A1 /* Montserrat-BlackItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5782B40A6D4E4D06ABEF6D67 /* Montserrat-BlackItalic.ttf */; };
-		9CB56DC0DA46BA916A805635 /* libPods-RNTypescriptBoilerplate.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E35DF7BAE771E2DE91481ADE /* libPods-RNTypescriptBoilerplate.a */; };
 		B73C81DB44264FC4985586F3 /* Montserrat-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A3AAA94529FA40F2B3CBAE18 /* Montserrat-Bold.ttf */; };
-		B9AFD78E7A8E3B5CC00C5345 /* libPods-RNTypescriptBoilerplate-RNTypescriptBoilerplateTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 297AA655F9C1889B4BA69572 /* libPods-RNTypescriptBoilerplate-RNTypescriptBoilerplateTests.a */; };
 		BE82E9E4F91A44ABB55F0E91 /* Montserrat-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9304242F9B7C432D8AC3D2F0 /* Montserrat-Medium.ttf */; };
 		D48D4BCCCF904DE88E9927D6 /* Montserrat-ExtraLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 190A194FAA0C4175BECE0037 /* Montserrat-ExtraLight.ttf */; };
+		D969F3A58B1A17DE2C207160 /* libPods-RNTypescriptBoilerplate.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DF1AF6A24501A1ED1853FC4C /* libPods-RNTypescriptBoilerplate.a */; };
 		E51B93605D0641A88609FD4D /* Montserrat-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BEC5AE88DF114B7E82FB3A52 /* Montserrat-Thin.ttf */; };
 		E6A1077287B84EE38529CA51 /* Montserrat-ExtraLightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FF9190B4D9324B73BCB9057F /* Montserrat-ExtraLightItalic.ttf */; };
 /* End PBXBuildFile section */
@@ -71,29 +71,29 @@
 		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = RNTypescriptBoilerplate/main.m; sourceTree = "<group>"; };
 		17CF7E7FD0124634A0976AD5 /* Montserrat-ExtraBoldItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Montserrat-ExtraBoldItalic.ttf"; path = "../src/assets/fonts/Montserrat/Montserrat-ExtraBoldItalic.ttf"; sourceTree = "<group>"; };
 		190A194FAA0C4175BECE0037 /* Montserrat-ExtraLight.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Montserrat-ExtraLight.ttf"; path = "../src/assets/fonts/Montserrat/Montserrat-ExtraLight.ttf"; sourceTree = "<group>"; };
-		1C5CEFC5D6A8DA8F24404432 /* Pods-RNTypescriptBoilerplate.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RNTypescriptBoilerplate.debug.xcconfig"; path = "Target Support Files/Pods-RNTypescriptBoilerplate/Pods-RNTypescriptBoilerplate.debug.xcconfig"; sourceTree = "<group>"; };
-		297AA655F9C1889B4BA69572 /* libPods-RNTypescriptBoilerplate-RNTypescriptBoilerplateTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-RNTypescriptBoilerplate-RNTypescriptBoilerplateTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2D02E47B1E0B4A5D006451C7 /* RNTypescriptBoilerplate-tvOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "RNTypescriptBoilerplate-tvOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2D02E4901E0B4A5D006451C7 /* RNTypescriptBoilerplate-tvOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "RNTypescriptBoilerplate-tvOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		34EDE5E0E50CAC6B2F68D94E /* libPods-RNTypescriptBoilerplate-RNTypescriptBoilerplateTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-RNTypescriptBoilerplate-RNTypescriptBoilerplateTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3AA50838D37541D68934EB16 /* Montserrat-Regular.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Montserrat-Regular.ttf"; path = "../src/assets/fonts/Montserrat/Montserrat-Regular.ttf"; sourceTree = "<group>"; };
 		3D32DD8CC06C45D6B219BEDC /* Montserrat-ExtraBold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Montserrat-ExtraBold.ttf"; path = "../src/assets/fonts/Montserrat/Montserrat-ExtraBold.ttf"; sourceTree = "<group>"; };
 		49780241485441859D1EE0D0 /* Montserrat-ThinItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Montserrat-ThinItalic.ttf"; path = "../src/assets/fonts/Montserrat/Montserrat-ThinItalic.ttf"; sourceTree = "<group>"; };
 		5782B40A6D4E4D06ABEF6D67 /* Montserrat-BlackItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Montserrat-BlackItalic.ttf"; path = "../src/assets/fonts/Montserrat/Montserrat-BlackItalic.ttf"; sourceTree = "<group>"; };
-		5D1A514DF6221952A9E8B895 /* Pods-RNTypescriptBoilerplate-RNTypescriptBoilerplateTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RNTypescriptBoilerplate-RNTypescriptBoilerplateTests.debug.xcconfig"; path = "Target Support Files/Pods-RNTypescriptBoilerplate-RNTypescriptBoilerplateTests/Pods-RNTypescriptBoilerplate-RNTypescriptBoilerplateTests.debug.xcconfig"; sourceTree = "<group>"; };
-		60E2E248BD8C9654BB55B25C /* Pods-RNTypescriptBoilerplate.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RNTypescriptBoilerplate.release.xcconfig"; path = "Target Support Files/Pods-RNTypescriptBoilerplate/Pods-RNTypescriptBoilerplate.release.xcconfig"; sourceTree = "<group>"; };
 		7C00D1E65F0F44BCA3B2ABC5 /* Montserrat-Light.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Montserrat-Light.ttf"; path = "../src/assets/fonts/Montserrat/Montserrat-Light.ttf"; sourceTree = "<group>"; };
+		8139595CB8FA121A095A5DDF /* Pods-RNTypescriptBoilerplate.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RNTypescriptBoilerplate.debug.xcconfig"; path = "Target Support Files/Pods-RNTypescriptBoilerplate/Pods-RNTypescriptBoilerplate.debug.xcconfig"; sourceTree = "<group>"; };
 		81A2D700970546B9B8D77413 /* Montserrat-SemiBoldItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Montserrat-SemiBoldItalic.ttf"; path = "../src/assets/fonts/Montserrat/Montserrat-SemiBoldItalic.ttf"; sourceTree = "<group>"; };
 		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = RNTypescriptBoilerplate/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8D2127D994BC485A9161C01C /* Montserrat-LightItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Montserrat-LightItalic.ttf"; path = "../src/assets/fonts/Montserrat/Montserrat-LightItalic.ttf"; sourceTree = "<group>"; };
 		8DF6F5C3EDBC411AB2725D54 /* Montserrat-BoldItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Montserrat-BoldItalic.ttf"; path = "../src/assets/fonts/Montserrat/Montserrat-BoldItalic.ttf"; sourceTree = "<group>"; };
 		9304242F9B7C432D8AC3D2F0 /* Montserrat-Medium.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Montserrat-Medium.ttf"; path = "../src/assets/fonts/Montserrat/Montserrat-Medium.ttf"; sourceTree = "<group>"; };
-		9C893FF21D3C38D09F11534A /* Pods-RNTypescriptBoilerplate-RNTypescriptBoilerplateTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RNTypescriptBoilerplate-RNTypescriptBoilerplateTests.release.xcconfig"; path = "Target Support Files/Pods-RNTypescriptBoilerplate-RNTypescriptBoilerplateTests/Pods-RNTypescriptBoilerplate-RNTypescriptBoilerplateTests.release.xcconfig"; sourceTree = "<group>"; };
+		A206FEDADAC9B76E35E15856 /* Pods-RNTypescriptBoilerplate-RNTypescriptBoilerplateTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RNTypescriptBoilerplate-RNTypescriptBoilerplateTests.release.xcconfig"; path = "Target Support Files/Pods-RNTypescriptBoilerplate-RNTypescriptBoilerplateTests/Pods-RNTypescriptBoilerplate-RNTypescriptBoilerplateTests.release.xcconfig"; sourceTree = "<group>"; };
 		A3AAA94529FA40F2B3CBAE18 /* Montserrat-Bold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Montserrat-Bold.ttf"; path = "../src/assets/fonts/Montserrat/Montserrat-Bold.ttf"; sourceTree = "<group>"; };
 		B24692095B9343F6BE0579D0 /* Montserrat-Italic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Montserrat-Italic.ttf"; path = "../src/assets/fonts/Montserrat/Montserrat-Italic.ttf"; sourceTree = "<group>"; };
 		BEC5AE88DF114B7E82FB3A52 /* Montserrat-Thin.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Montserrat-Thin.ttf"; path = "../src/assets/fonts/Montserrat/Montserrat-Thin.ttf"; sourceTree = "<group>"; };
-		E35DF7BAE771E2DE91481ADE /* libPods-RNTypescriptBoilerplate.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-RNTypescriptBoilerplate.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DF1AF6A24501A1ED1853FC4C /* libPods-RNTypescriptBoilerplate.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-RNTypescriptBoilerplate.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DF9F0EC69DF6F75B4407E5AB /* Pods-RNTypescriptBoilerplate-RNTypescriptBoilerplateTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RNTypescriptBoilerplate-RNTypescriptBoilerplateTests.debug.xcconfig"; path = "Target Support Files/Pods-RNTypescriptBoilerplate-RNTypescriptBoilerplateTests/Pods-RNTypescriptBoilerplate-RNTypescriptBoilerplateTests.debug.xcconfig"; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
 		ED2971642150620600B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = Platforms/AppleTVOS.platform/Developer/SDKs/AppleTVOS12.0.sdk/System/Library/Frameworks/JavaScriptCore.framework; sourceTree = DEVELOPER_DIR; };
+		F7635F3CA03EF089889D8D78 /* Pods-RNTypescriptBoilerplate.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RNTypescriptBoilerplate.release.xcconfig"; path = "Target Support Files/Pods-RNTypescriptBoilerplate/Pods-RNTypescriptBoilerplate.release.xcconfig"; sourceTree = "<group>"; };
 		FF9190B4D9324B73BCB9057F /* Montserrat-ExtraLightItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Montserrat-ExtraLightItalic.ttf"; path = "../src/assets/fonts/Montserrat/Montserrat-ExtraLightItalic.ttf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -102,7 +102,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B9AFD78E7A8E3B5CC00C5345 /* libPods-RNTypescriptBoilerplate-RNTypescriptBoilerplateTests.a in Frameworks */,
+				2B090036F9AE9242D258FC63 /* libPods-RNTypescriptBoilerplate-RNTypescriptBoilerplateTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -110,7 +110,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9CB56DC0DA46BA916A805635 /* libPods-RNTypescriptBoilerplate.a in Frameworks */,
+				D969F3A58B1A17DE2C207160 /* libPods-RNTypescriptBoilerplate.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -167,8 +167,8 @@
 			children = (
 				ED297162215061F000B7C4FE /* JavaScriptCore.framework */,
 				ED2971642150620600B7C4FE /* JavaScriptCore.framework */,
-				E35DF7BAE771E2DE91481ADE /* libPods-RNTypescriptBoilerplate.a */,
-				297AA655F9C1889B4BA69572 /* libPods-RNTypescriptBoilerplate-RNTypescriptBoilerplateTests.a */,
+				DF1AF6A24501A1ED1853FC4C /* libPods-RNTypescriptBoilerplate.a */,
+				34EDE5E0E50CAC6B2F68D94E /* libPods-RNTypescriptBoilerplate-RNTypescriptBoilerplateTests.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -210,10 +210,10 @@
 		B93F1F5C10DB2D2240C3286C /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				1C5CEFC5D6A8DA8F24404432 /* Pods-RNTypescriptBoilerplate.debug.xcconfig */,
-				60E2E248BD8C9654BB55B25C /* Pods-RNTypescriptBoilerplate.release.xcconfig */,
-				5D1A514DF6221952A9E8B895 /* Pods-RNTypescriptBoilerplate-RNTypescriptBoilerplateTests.debug.xcconfig */,
-				9C893FF21D3C38D09F11534A /* Pods-RNTypescriptBoilerplate-RNTypescriptBoilerplateTests.release.xcconfig */,
+				8139595CB8FA121A095A5DDF /* Pods-RNTypescriptBoilerplate.debug.xcconfig */,
+				F7635F3CA03EF089889D8D78 /* Pods-RNTypescriptBoilerplate.release.xcconfig */,
+				DF9F0EC69DF6F75B4407E5AB /* Pods-RNTypescriptBoilerplate-RNTypescriptBoilerplateTests.debug.xcconfig */,
+				A206FEDADAC9B76E35E15856 /* Pods-RNTypescriptBoilerplate-RNTypescriptBoilerplateTests.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -250,12 +250,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "RNTypescriptBoilerplateTests" */;
 			buildPhases = (
-				9C600A695857FCA3DD04CAAE /* [CP] Check Pods Manifest.lock */,
+				11D96A0457C8887E801BB41B /* [CP] Check Pods Manifest.lock */,
 				00E356EA1AD99517003FC87E /* Sources */,
 				00E356EB1AD99517003FC87E /* Frameworks */,
 				00E356EC1AD99517003FC87E /* Resources */,
-				989C0E4E260572B2D3313DAC /* [CP] Copy Pods Resources */,
-				D8E9BDD691B967B9C7DFD66D /* [CP] Embed Pods Frameworks */,
+				83B393C2A3938C03358D377D /* [CP] Embed Pods Frameworks */,
+				328C537424F3F16B10DD8D77 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -271,14 +271,14 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "RNTypescriptBoilerplate" */;
 			buildPhases = (
-				4D2014FC85B8FC6BD18351D1 /* [CP] Check Pods Manifest.lock */,
+				38DD2DAFEF2118FD41668387 /* [CP] Check Pods Manifest.lock */,
 				FD10A7F022414F080027D42C /* Start Packager */,
 				13B07F871A680F5B00A75B9A /* Sources */,
 				13B07F8C1A680F5B00A75B9A /* Frameworks */,
 				13B07F8E1A680F5B00A75B9A /* Resources */,
 				00DD1BFF1BD5951E006B06BC /* Bundle React Native code and images */,
-				CB7E44CB74070A478D1552CE /* [CP] Copy Pods Resources */,
-				5F982CED3774590488FC5063 /* [CP] Embed Pods Frameworks */,
+				C1FF4D5D4B62FC7E109B31DB /* [CP] Embed Pods Frameworks */,
+				A672566C095F7C73D0D6F589 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -441,21 +441,7 @@
 			shellPath = /bin/sh;
 			shellScript = "export NODE_BINARY=node\n../node_modules/react-native/scripts/react-native-xcode.sh";
 		};
-		2D02E4CB1E0B4B27006451C7 /* Bundle React Native Code And Images */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "Bundle React Native Code And Images";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "export NODE_BINARY=node\n../node_modules/react-native/scripts/react-native-xcode.sh";
-		};
-		4D2014FC85B8FC6BD18351D1 /* [CP] Check Pods Manifest.lock */ = {
+		11D96A0457C8887E801BB41B /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -470,34 +456,28 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-RNTypescriptBoilerplate-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-RNTypescriptBoilerplate-RNTypescriptBoilerplateTests-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		5F982CED3774590488FC5063 /* [CP] Embed Pods Frameworks */ = {
+		2D02E4CB1E0B4B27006451C7 /* Bundle React Native Code And Images */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-RNTypescriptBoilerplate/Pods-RNTypescriptBoilerplate-frameworks.sh",
-				"${PODS_XCFRAMEWORKS_BUILD_DIR}/Flipper-DoubleConversion/double-conversion.framework/double-conversion",
-				"${PODS_XCFRAMEWORKS_BUILD_DIR}/OpenSSL-Universal/OpenSSL.framework/OpenSSL",
 			);
-			name = "[CP] Embed Pods Frameworks";
+			name = "Bundle React Native Code And Images";
 			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/double-conversion.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/OpenSSL.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-RNTypescriptBoilerplate/Pods-RNTypescriptBoilerplate-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
+			shellScript = "export NODE_BINARY=node\n../node_modules/react-native/scripts/react-native-xcode.sh";
 		};
-		989C0E4E260572B2D3313DAC /* [CP] Copy Pods Resources */ = {
+		328C537424F3F16B10DD8D77 /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -547,7 +527,7 @@
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-RNTypescriptBoilerplate-RNTypescriptBoilerplateTests/Pods-RNTypescriptBoilerplate-RNTypescriptBoilerplateTests-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		9C600A695857FCA3DD04CAAE /* [CP] Check Pods Manifest.lock */ = {
+		38DD2DAFEF2118FD41668387 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -562,14 +542,34 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-RNTypescriptBoilerplate-RNTypescriptBoilerplateTests-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-RNTypescriptBoilerplate-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		CB7E44CB74070A478D1552CE /* [CP] Copy Pods Resources */ = {
+		83B393C2A3938C03358D377D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-RNTypescriptBoilerplate-RNTypescriptBoilerplateTests/Pods-RNTypescriptBoilerplate-RNTypescriptBoilerplateTests-frameworks.sh",
+				"${PODS_XCFRAMEWORKS_BUILD_DIR}/Flipper-DoubleConversion/double-conversion.framework/double-conversion",
+				"${PODS_XCFRAMEWORKS_BUILD_DIR}/OpenSSL-Universal/OpenSSL.framework/OpenSSL",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/double-conversion.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/OpenSSL.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-RNTypescriptBoilerplate-RNTypescriptBoilerplateTests/Pods-RNTypescriptBoilerplate-RNTypescriptBoilerplateTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A672566C095F7C73D0D6F589 /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -619,13 +619,13 @@
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-RNTypescriptBoilerplate/Pods-RNTypescriptBoilerplate-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		D8E9BDD691B967B9C7DFD66D /* [CP] Embed Pods Frameworks */ = {
+		C1FF4D5D4B62FC7E109B31DB /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-RNTypescriptBoilerplate-RNTypescriptBoilerplateTests/Pods-RNTypescriptBoilerplate-RNTypescriptBoilerplateTests-frameworks.sh",
+				"${PODS_ROOT}/Target Support Files/Pods-RNTypescriptBoilerplate/Pods-RNTypescriptBoilerplate-frameworks.sh",
 				"${PODS_XCFRAMEWORKS_BUILD_DIR}/Flipper-DoubleConversion/double-conversion.framework/double-conversion",
 				"${PODS_XCFRAMEWORKS_BUILD_DIR}/OpenSSL-Universal/OpenSSL.framework/OpenSSL",
 			);
@@ -636,7 +636,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-RNTypescriptBoilerplate-RNTypescriptBoilerplateTests/Pods-RNTypescriptBoilerplate-RNTypescriptBoilerplateTests-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-RNTypescriptBoilerplate/Pods-RNTypescriptBoilerplate-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		FD10A7F022414F080027D42C /* Start Packager */ = {
@@ -732,7 +732,7 @@
 /* Begin XCBuildConfiguration section */
 		00E356F61AD99517003FC87E /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5D1A514DF6221952A9E8B895 /* Pods-RNTypescriptBoilerplate-RNTypescriptBoilerplateTests.debug.xcconfig */;
+			baseConfigurationReference = DF9F0EC69DF6F75B4407E5AB /* Pods-RNTypescriptBoilerplate-RNTypescriptBoilerplateTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				GCC_PREPROCESSOR_DEFINITIONS = (
@@ -755,7 +755,7 @@
 		};
 		00E356F71AD99517003FC87E /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9C893FF21D3C38D09F11534A /* Pods-RNTypescriptBoilerplate-RNTypescriptBoilerplateTests.release.xcconfig */;
+			baseConfigurationReference = A206FEDADAC9B76E35E15856 /* Pods-RNTypescriptBoilerplate-RNTypescriptBoilerplateTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				COPY_PHASE_STRIP = NO;
@@ -775,7 +775,7 @@
 		};
 		13B07F941A680F5B00A75B9A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1C5CEFC5D6A8DA8F24404432 /* Pods-RNTypescriptBoilerplate.debug.xcconfig */;
+			baseConfigurationReference = 8139595CB8FA121A095A5DDF /* Pods-RNTypescriptBoilerplate.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
@@ -799,7 +799,7 @@
 		};
 		13B07F951A680F5B00A75B9A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 60E2E248BD8C9654BB55B25C /* Pods-RNTypescriptBoilerplate.release.xcconfig */;
+			baseConfigurationReference = F7635F3CA03EF089889D8D78 /* Pods-RNTypescriptBoilerplate.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
